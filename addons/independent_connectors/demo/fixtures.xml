@@ -1,0 +1,7 @@
+<odoo noupdate="1">
+<record id="outlook_sim" model="ic.connection"><field name="name">Fictional Outlook Contact Lab</field><field name="code">outlook-demo</field><field name="provider">outlook</field></record>
+<record id="zoho_sim" model="ic.connection"><field name="name">Fictional Zoho CRM Lab</field><field name="code">zoho-demo</field><field name="provider">zoho</field><field name="make_leads">True</field></record>
+<record id="quickbooks_sim" model="ic.connection"><field name="name">Fictional QuickBooks Customer Lab</field><field name="code">qbo-demo</field><field name="provider">quickbooks</field></record>
+<record id="stripe_sim" model="ic.connection"><field name="name">Fictional Stripe Test Payment Lab</field><field name="code">stripe-demo</field><field name="provider">stripe</field></record>
+<record id="fictional_customer" model="res.partner"><field name="name">Fictional Integration Customer</field><field name="company_id" ref="base.main_company"/><field name="email">integration@example.invalid</field></record>
+</odoo>

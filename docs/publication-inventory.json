@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-28",
+  "project": "10-Independent-Integration-Labs",
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 567,
+      "sha256": "f568233601416f1c3018903b3d47cbae1c71e42f2ee64d571c43f01fa2981a8e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 317,
+      "sha256": "6aba688207846b67a565fe4047449842b6ee9f61ecfe2a6ca4290f233895c1cd"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 43880,
+      "sha256": "f6c2e871332e4d0139fe7dce41725fb245f0735aa25fd62835de34f057b530a8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2367,
+      "sha256": "e4a424a119134cdcba0978d7f8698234d16c6993797f89d8cb9c5a9655b6e85c"
+    },
+    {
+      "path": "addons/independent_connectors/__init__.py",
+      "bytes": 49,
+      "sha256": "a0194ed682ebbbeaf2042a7c4a6c4ad885be67b9249c801a8f0760de453ffde0"
+    },
+    {
+      "path": "addons/independent_connectors/__manifest__.py",
+      "bytes": 499,
+      "sha256": "9783876d500c78b5ccbeae070e1ec96e24905f7fee24db02859f825c41339b2f"
+    },
+    {
+      "path": "addons/independent_connectors/common.py",
+      "bytes": 1833,
+      "sha256": "9276ea7658cd8a0a02b3d4976447fbdec714963cc2d64c4bb41afa893f1d8835"
+    },
+    {
+      "path": "addons/independent_connectors/controllers/__init__.py",
+      "bytes": 20,
+      "sha256": "3e414d4bfedc775e837d65de4f9a44320664daa3e498b7efa0bca4f35b23e096"
+    },
+    {
+      "path": "addons/independent_connectors/controllers/main.py",
+      "bytes": 3397,
+      "sha256": "131dccd01acfdc2d631ae06e0f0004a428a85b516f3195979f426fc7f17b4da9"
+    },
+    {
+      "path": "addons/independent_connectors/data/cron.xml",
+      "bytes": 438,
+      "sha256": "d2346caf5382b11b93c3feb287036a749c5c50d69cc370159c112e40e2373047"
+    },
+    {
+      "path": "addons/independent_connectors/demo/fixtures.xml",
+      "bytes": 1047,
+      "sha256": "8e365f67ee472c7d3313913a6ee50d9c15a507768242597d9ded02f42201d4e9"
+    },
+    {
+      "path": "addons/independent_connectors/models/__init__.py",
+      "bytes": 26,
+      "sha256": "2c7160cafca973286dc252f27bb176eb0dbe5ee45d4cb87116dac9b296fec0a5"
+    },
+    {
+      "path": "addons/independent_connectors/models/operations.py",
+      "bytes": 35805,
+      "sha256": "5036f33f4c07be7b0bdc50695e27e8b1b3e0e9e63c1e6471edcb609cb294bd4f"
+    },
+    {
+      "path": "addons/independent_connectors/security/groups.xml",
+      "bytes": 565,
+      "sha256": "0aec0e904ff1c4ee0e2f2730981b7befe857bd75cc4a0c5f756bb746bb818dba"
+    },
+    {
+      "path": "addons/independent_connectors/security/ir.model.access.csv",
+      "bytes": 844,
+      "sha256": "5ddbf9b1f7627f7c48a81cc53870e6ab44f5015910bf983e829785e947b149a6"
+    },
+    {
+      "path": "addons/independent_connectors/security/rules.xml",
+      "bytes": 934,
+      "sha256": "2af5d8d9a9433d26d194987d308c021375fc274bfdf52fe117819572465420ac"
+    },
+    {
+      "path": "addons/independent_connectors/views/account.xml",
+      "bytes": 678,
+      "sha256": "24fd93d9bdff92a1845adb776dca05e09ff79355996e8dbfc81b55ef8ebad1ba"
+    },
+    {
+      "path": "addons/independent_connectors/views/operations.xml",
+      "bytes": 5753,
+      "sha256": "00a02845ff96fae8c9617114d62e2414c3e29aa94b8ca11f439af21228529588"
+    },
+    {
+      "path": "docker/compose.yaml",
+      "bytes": 1374,
+      "sha256": "eec983e7f1903f7d64bf5ab8eb4b4cd99623a56081f74be18bf5cb7e6a8512b2"
+    },
+    {
+      "path": "docker/images.lock.json",
+      "bytes": 340,
+      "sha256": "70c816ea3a9dd663e882a70c7c0bef020a407434d50d22336a911b27d822eb75"
+    },
+    {
+      "path": "docs/FEATURES.md",
+      "bytes": 4875,
+      "sha256": "c74267006fd1615e42ecf94f304a84ba4e0ab97586faf223a073264eec8a0a9b"
+    },
+    {
+      "path": "docs/OAUTH_SETUP.md",
+      "bytes": 2194,
+      "sha256": "f27c8b5145ae212eee7951d51bbbe28bffbcffbb83ce28c220e32c0532f00a99"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 831,
+      "sha256": "083f33615715caeee1122ee365051cfdaed36e8e233a252db9432b92afd7f88a"
+    },
+    {
+      "path": "scripts/bootstrap.py",
+      "bytes": 1566,
+      "sha256": "91e21e1b261f9689fe00e8a4018694ce98d1f517b63baf4f1db68ef2aa1195c6"
+    },
+    {
+      "path": "scripts/lab.ps1",
+      "bytes": 1320,
+      "sha256": "d28ee97c7c0cbfe817b22a0aeef4b66dd77ac4a38f504df36ec1c929a6d3be6c"
+    },
+    {
+      "path": "scripts/publication_audit.py",
+      "bytes": 7029,
+      "sha256": "f0166f392e5abfd13f183db6f257e7d64ff2e122d0db12cbf76724246a721c5f"
+    },
+    {
+      "path": "scripts/seed.py",
+      "bytes": 539,
+      "sha256": "bef43c11474a211d271d37a3afe4267cebb1387a41bf0d214258e3d73e66e9ab"
+    }
+  ],
+  "excluded": [],
+  "symlinks": [],
+  "findings": []
+}

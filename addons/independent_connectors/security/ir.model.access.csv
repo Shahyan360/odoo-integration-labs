@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+ic_connection_user,ic_connection user,model_ic_connection,independent_connectors.group_user,1,0,0,0
+ic_connection_manager,ic_connection manager,model_ic_connection,independent_connectors.group_manager,1,1,1,0
+ic_binding_user,ic_binding user,model_ic_binding,independent_connectors.group_user,1,0,0,0
+ic_binding_manager,ic_binding manager,model_ic_binding,independent_connectors.group_manager,1,1,1,0
+ic_job_user,ic_job user,model_ic_job,independent_connectors.group_user,1,0,0,0
+ic_job_manager,ic_job manager,model_ic_job,independent_connectors.group_manager,1,1,1,0
+ic_payment_user,ic_payment user,model_ic_payment,independent_connectors.group_user,1,0,0,0
+ic_payment_manager,ic_payment manager,model_ic_payment,independent_connectors.group_manager,1,1,1,0

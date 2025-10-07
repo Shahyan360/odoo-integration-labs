@@ -1,0 +1,6 @@
+<odoo>
+<record id="ic_connection_company" model="ir.rule"><field name="name">ic_connection company boundary</field><field name="model_id" ref="model_ic_connection"/><field name="domain_force">[('company_id', 'in', company_ids)]</field></record>
+<record id="ic_binding_company" model="ir.rule"><field name="name">ic_binding company boundary</field><field name="model_id" ref="model_ic_binding"/><field name="domain_force">[('company_id', 'in', company_ids)]</field></record>
+<record id="ic_job_company" model="ir.rule"><field name="name">ic_job company boundary</field><field name="model_id" ref="model_ic_job"/><field name="domain_force">[('company_id', 'in', company_ids)]</field></record>
+<record id="ic_payment_company" model="ir.rule"><field name="name">ic_payment company boundary</field><field name="model_id" ref="model_ic_payment"/><field name="domain_force">[('company_id', 'in', company_ids)]</field></record>
+</odoo>
